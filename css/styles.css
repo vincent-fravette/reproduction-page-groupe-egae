@@ -22,7 +22,8 @@ header {
 }
 
 #logo {
-    width: 60%;
+    width: 220px;
+    height: 110px;
 }
 
 /*************MENU**********/
@@ -173,5 +174,30 @@ article a:link{
     background-image: url("https://egalactu.com/wp-content/uploads/2020/06/Capture-d%E2%80%99%C3%A9cran-2020-06-24-%C3%A0-10.11.45-696x625.png");
 }
 
+footer p {
+    /*width: 20px;*/
+    display: inline;
+}
+
+footer i {
+    width: 20px;
+}
+
 /*FIN SECTION*/
 
+
+
+/*********** MEDIA QUERIES ***************/
+
+@media (min-width: 768px) {
+    #logo {
+        width: 220px;
+        height: 110px;
+    }
+}
+
+@media (min-width: 1024px) {
+    #main {
+        flex-direction: row!important;
+    }
+}
