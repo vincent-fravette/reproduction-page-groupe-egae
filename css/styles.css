@@ -182,6 +182,7 @@ article a:link{
 footer p {
     /*width: 20px;*/
     display: inline;
+    font-size: 14px;
 }
 
 footer i {
