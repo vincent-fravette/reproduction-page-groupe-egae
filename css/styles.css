@@ -5,12 +5,19 @@
 
 /*SECTION*/
 .contenu{
-    background-color: white;
+    background-color: rgb(202, 202, 202);
+    padding: 10px;
+    width: 90vw;
+    margin: auto;
+    position: relative;
+    top: 150px;
 }
 
 /*backgrounds section paramètres*/
 .article_1, .article_2, .article_3, .article_4, .article_5, .article_6, .article_7, .article_8{
     background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y:top;
 }
 
 /*images background articles*/
