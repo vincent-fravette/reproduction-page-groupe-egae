@@ -98,10 +98,7 @@ article{
     top: 150px;
 }
 
-.contenu a{
-    text-decoration: none;
-}
-.contenu a:active{
+article a:link{
     text-decoration: none;
 }
 
