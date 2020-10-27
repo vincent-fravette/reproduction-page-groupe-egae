@@ -1,1 +1,41 @@
 /*font-family: Lato,Helvetica,Arial,sans-serif;*/
+
+/*FOOTER*/
+
+
+/*SECTION*/
+.contenu{
+    background-color: white;
+}
+
+/*backgrounds section paramètres*/
+.article_1, .article_2, .article_3, .article_4, .article_5, .article_6, .article_7, .article_8{
+    background-repeat: no-repeat;
+}
+
+/*images background articles*/
+.article_1{
+    background-image: url("https://egalactu.com/wp-content/uploads/2016/04/logo-egalactu-300x80.png");
+}
+.article_2{
+    background-image: url("https://egalactu.com/wp-content/uploads/2020/08/Capture-decran-2020-08-26-a-14.30.05-696x196.png");
+}
+.article_3{
+    background-image: url("https://egalactu.com/wp-content/uploads/2020/08/watercolor-5250583_1920-696x557.jpg");
+}
+.article_4{
+    background-image: url("https://egalactu.com/wp-content/uploads/2020/08/Capture-decran-2020-08-26-a-13.56.45-696x349.png");
+}
+.article_5{
+    background-image: url("https://egalactu.com/wp-content/uploads/2020/08/Capture-decran-2020-08-19-a-17.00.43-696x428.png");
+}
+.article_6{
+    background-image: url("https://egalactu.com/wp-content/uploads/2020/08/Capture-decran-2020-08-19-a-16.35.00-696x719.png");
+}
+.article_7{
+    background-image: url("https://egalactu.com/wp-content/uploads/2020/08/Capture-decran-2020-08-19-a-16.47.31-696x409.png");
+}
+.article_8{
+    background-image: url("https://egalactu.com/wp-content/uploads/2020/06/Capture-d%E2%80%99%C3%A9cran-2020-06-24-%C3%A0-10.11.45-696x625.png");
+}
+
