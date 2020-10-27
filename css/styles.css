@@ -1,5 +1,84 @@
 /*font-family: Lato,Helvetica,Arial,sans-serif;*/
 
+
+body {
+    font-family: 'Lato',Helvetica,Arial,sans-serif;
+
+}
+
+a {
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+/************HEADER***********/
+
+header {
+    width: 100%;
+    height: 140px;
+}
+
+#logo {
+    width: 60%;
+}
+
+/*************MENU**********/
+
+.overlay-index {
+    z-index: 3;
+}
+
+#overlay-1 {
+    background: rgb(123, 178, 154, 0.4);
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+}
+
+.menu-1 {
+    width: 100%;
+    height: 300px;
+    background-image: url('https://groupe-egae.fr/wp-content/uploads/2016/04/image-2-egae-926x1800.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+}
+
+.menu-1 h1 {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.trait {
+    width: 22px;
+    height: 5px;
+    background-color: white;
+}
+
+
+
+/*
+.trait {
+    content: "";
+    display: block;
+    width: 22px;
+    height: 5px;
+    background: #fff;
+    left: 50%;
+    margin-left: -11px;
+    position: absolute;
+    bottom: 20px;
+    transition: all ease .4s;
+    -o-transition: all ease .4s;
+    -ms-transition: all ease .4s;
+    -moz-transition: all ease .4s;
+    -webkit-transition: all ease .4s;
+}
+*/
 /*FOOTER*/
 
 
