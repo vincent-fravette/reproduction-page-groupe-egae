@@ -83,8 +83,14 @@ header {
 
 
 /*SECTION*/
+article{
+    margin-bottom: 40%;
+    font-size: small;
+}
+
 .contenu{
-    background-color: rgb(202, 202, 202);
+    background-color: rgb(255, 255, 255);
+    color: black;
     padding: 10px;
     width: 90vw;
     margin: auto;
@@ -92,13 +98,35 @@ header {
     top: 150px;
 }
 
+.contenu a{
+    text-decoration: none;
+}
+.contenu a:active{
+    text-decoration: none;
+}
+
 /*backgrounds section paramètres*/
 .article_1, .article_2, .article_3, .article_4, .article_5, .article_6, .article_7, .article_8{
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y:top;
+    background-size: contain;
 }
 
+.article_8 .contenu{
+    position: relative;
+    top: 200px;
+}
+
+.article_4 .contenu{
+    position: relative;
+    top:120px;
+}
+
+.article_2 .contenu{
+    position: relative;
+    top:100px;
+}
 /*images background articles*/
 .article_1{
     background-image: url("https://egalactu.com/wp-content/uploads/2016/04/logo-egalactu-300x80.png");
@@ -124,4 +152,6 @@ header {
 .article_8{
     background-image: url("https://egalactu.com/wp-content/uploads/2020/06/Capture-d%E2%80%99%C3%A9cran-2020-06-24-%C3%A0-10.11.45-696x625.png");
 }
+
+/*FIN SECTION*/
 
