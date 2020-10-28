@@ -67,6 +67,30 @@ header {
     background-image: url('https://groupe-egae.fr/wp-content/uploads/2015/07/Asite_couv21.jpg');
 }
 
+
+/*.overlay-index{
+    position: relative;
+    top:-90px;
+}*/
+.menu h1{
+    font-size: 1.7em;
+}
+
+nav{
+    display: block;
+    position: relative;
+    /*left: -28px;*/
+
+}
+
+li{
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+
 .menu {
     width: 100%;
     height: 300px;
@@ -76,10 +100,8 @@ header {
     
 }
 
-.menu-height {
-    height: 100vh;
-}
 
+/*
 .menu h1 {
     font-weight: 900;
     font-size: 30px;
@@ -103,14 +125,14 @@ header {
     transition:all ease .4s;
     opacity: 0;
 }
-
+*/
 .menu ul {
     padding-left: 0;
 }
 
 /************* ANIMATIONS **********/
 
-.menu:hover .overlay {
+/*.menu:hover .overlay {
     background: rgb(0, 0, 0, 0.6);
 }
 
@@ -135,7 +157,7 @@ header {
     transform: translateY(-200px);
     opacity: 1;
 }
-
+*/
 
 
 
@@ -326,21 +348,3 @@ footer i {
     }
 }
 
-@media (max-width:768px){
-    .overlay-index{
-        position: relative;
-        top:-90px;
-    }
-
-    nav{
-        display: block;
-        position: relative;
-        left: -28px;
-
-    }
-
-    li{
-        border: 1px solid white;
-        border-radius: 5px;
-        margin-bottom: 10px;
-    }
