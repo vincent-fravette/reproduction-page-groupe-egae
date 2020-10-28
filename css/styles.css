@@ -1,9 +1,8 @@
-/*font-family: Lato,Helvetica,Arial,sans-serif;*/
+@charset "utf-8";
 
 
 body {
     font-family: 'Lato',Helvetica,Arial,sans-serif;
-
 }
 
 a {
@@ -19,6 +18,7 @@ li {
 header {
     width: 100%;
     height: 140px;
+    /*position: relative;*/
 }
 
 #logo {
@@ -28,17 +28,23 @@ header {
 
 /*************MENU**********/
 
-.overlay-index {
-    z-index: 3;
-}
-
-#overlay {
+.overlay {
     /*background: rgb(123, 178, 154, 0.4);*/
     background: rgb(0, 0, 0, 0.3);
     width: 100%;
     height: 300px;
     position: absolute;
     z-index: 1;
+}
+
+.overlay-index {
+    z-index: 3;
+}
+.trait {
+    width: 22px;
+    height: 5px;
+    background-color: white;
+    margin-bottom: 1.5em;
 }
 
 .menu-1{
@@ -62,6 +68,10 @@ header {
     padding-top: 6em
 }
 
+.menu-height {
+    height: 100vh;
+}
+
 .menu h1 {
     font-weight: 900;
     font-size: 30px;
@@ -76,39 +86,19 @@ header {
     width: 70%;
 }
 
-.trait {
-    width: 22px;
-    height: 5px;
-    background-color: white;
-    margin-bottom: 1.5em;
-}
 
 
 
-/*
-.trait {
-    content: "";
-    display: block;
-    width: 22px;
-    height: 5px;
-    background: #fff;
-    left: 50%;
-    margin-left: -11px;
-    position: absolute;
-    bottom: 20px;
-    transition: all ease .4s;
-    -o-transition: all ease .4s;
-    -ms-transition: all ease .4s;
-    -moz-transition: all ease .4s;
-    -webkit-transition: all ease .4s;
-}
-*/
-/*FOOTER*/
+
+
+/************* FOOTER **********/
+
 .contact div{
     width:200px;
 }
 
-/*SECTION*/
+/************* ARTICLE **********/
+
 article{
     margin-bottom: 40%;
     font-size: small;
@@ -127,10 +117,13 @@ article{
 article a:link{
     text-decoration: none;
 }
+
 .article_1{
     margin-bottom: 10px;
 }
+
 /*backgrounds section paramètres*/
+
 .article_1, .article_2, .article_3, .article_4, .article_5, .article_6, .article_7, .article_8{
     background-repeat: no-repeat;
     background-position-x: center;
@@ -157,26 +150,37 @@ article a:link{
     display: block;
 }
 /*images background articles*/
+
 .article_2{
     background-image: url("https://egalactu.com/wp-content/uploads/2020/08/Capture-decran-2020-08-26-a-14.30.05-696x196.png");
 }
+
 .article_3{
     background-image: url("https://egalactu.com/wp-content/uploads/2020/08/watercolor-5250583_1920-696x557.jpg");
 }
+
 .article_4{
     background-image: url("https://egalactu.com/wp-content/uploads/2020/08/Capture-decran-2020-08-26-a-13.56.45-696x349.png");
 }
+
 .article_5{
     background-image: url("https://egalactu.com/wp-content/uploads/2020/08/Capture-decran-2020-08-19-a-17.00.43-696x428.png");
 }
+
 .article_6{
     background-image: url("https://egalactu.com/wp-content/uploads/2020/08/Capture-decran-2020-08-19-a-16.35.00-696x719.png");
 }
+
 .article_7{
     background-image: url("https://egalactu.com/wp-content/uploads/2020/08/Capture-decran-2020-08-19-a-16.47.31-696x409.png");
 }
+
 .article_8{
     background-image: url("https://egalactu.com/wp-content/uploads/2020/06/Capture-d%E2%80%99%C3%A9cran-2020-06-24-%C3%A0-10.11.45-696x625.png");
+}
+
+footer h1 {
+    font-size: 30px;
 }
 
 footer p {
@@ -203,7 +207,37 @@ footer i {
 }
 
 @media (min-width: 1024px) {
-    #main {
-        flex-direction: row!important;
+
+    body {
+        overflow: hidden;
+    }
+
+    header {
+        width: 180px;
+        height: 105px;
+        position: absolute;
+        z-index: 5;
+        padding: 15px!important;
+    }
+
+    #logo {
+        width: 150px;
+        height: 75px;
+    }
+
+    .menu {
+        height: 100vh;
+    }
+
+    .overlay {
+        height: 100vh;
+    }
+
+    #bloc-2 {
+        overflow-y: scroll;
+    }
+
+    footer {
+        padding-top: 1.5em;
     }
 }
