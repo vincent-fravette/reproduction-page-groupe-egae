@@ -204,6 +204,9 @@ footer i {
         width: 220px;
         height: 110px;
     }
+    .overlay-index{
+        display: none;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -239,5 +242,23 @@ footer i {
 
     footer {
         padding-top: 1.5em;
+    }
+}
+
+@media (max-width:768px){
+    .menu h1{
+        position: relative;
+        top:-80px;
+    }
+    .menu span{
+        position: relative;
+        top:-80px;
+    }
+    .menu p{
+        position: relative;
+        top: -80px;
+    }
+    .overlay-index{
+        display: block;
     }
 }
